@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F396EA901577D0D2006A1D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA8F1577D0D2006A1D34 /* UIKit.framework */; };
+		F396EA921577D0D2006A1D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA911577D0D2006A1D34 /* Foundation.framework */; };
+		F396EA941577D0D2006A1D34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA931577D0D2006A1D34 /* CoreGraphics.framework */; };
+		F396EA9A1577D0D2006A1D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F396EA981577D0D2006A1D34 /* InfoPlist.strings */; };
+		F396EA9C1577D0D2006A1D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F396EA9B1577D0D2006A1D34 /* main.m */; };
+		F396EAA01577D0D2006A1D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F396EA9F1577D0D2006A1D34 /* AppDelegate.m */; };
+		F396EAA31577D0D2006A1D34 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F396EAA11577D0D2006A1D34 /* MainStoryboard_iPhone.storyboard */; };
+		F396EAA91577D0D2006A1D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F396EAA81577D0D2006A1D34 /* ViewController.m */; };
+		F396EAB11577D0D2006A1D34 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EAB01577D0D2006A1D34 /* SenTestingKit.framework */; };
+		F396EAB21577D0D2006A1D34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA8F1577D0D2006A1D34 /* UIKit.framework */; };
+		F396EAB31577D0D2006A1D34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EA911577D0D2006A1D34 /* Foundation.framework */; };
+		F396EABB1577D0D2006A1D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F396EAB91577D0D2006A1D34 /* InfoPlist.strings */; };
+		F396EABE1577D0D2006A1D34 /* HelloMQTTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F396EABD1577D0D2006A1D34 /* HelloMQTTTests.m */; };
+		F396EADA1577D1C6006A1D34 /* libMqttSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EAD21577D1C6006A1D34 /* libMqttSDK.a */; };
+		F396EADB1577D1C6006A1D34 /* libMqttSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F396EAD91577D1C6006A1D34 /* libMqttSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F396EAB41577D0D2006A1D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F396EA821577D0D2006A1D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F396EA8A1577D0D2006A1D34;
+			remoteInfo = HelloMQTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F396EA8B1577D0D2006A1D34 /* HelloMQTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMQTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F396EA8F1577D0D2006A1D34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F396EA911577D0D2006A1D34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F396EA931577D0D2006A1D34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F396EA971577D0D2006A1D34 /* HelloMQTT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMQTT-Info.plist"; sourceTree = "<group>"; };
+		F396EA991577D0D2006A1D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F396EA9B1577D0D2006A1D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F396EA9D1577D0D2006A1D34 /* HelloMQTT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloMQTT-Prefix.pch"; sourceTree = "<group>"; };
+		F396EA9E1577D0D2006A1D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F396EA9F1577D0D2006A1D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F396EAA21577D0D2006A1D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F396EAA71577D0D2006A1D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F396EAA81577D0D2006A1D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F396EAAF1577D0D2006A1D34 /* HelloMQTTTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMQTTTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F396EAB01577D0D2006A1D34 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F396EAB81577D0D2006A1D34 /* HelloMQTTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloMQTTTests-Info.plist"; sourceTree = "<group>"; };
+		F396EABA1577D0D2006A1D34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F396EABC1577D0D2006A1D34 /* HelloMQTTTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloMQTTTests.h; sourceTree = "<group>"; };
+		F396EABD1577D0D2006A1D34 /* HelloMQTTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloMQTTTests.m; sourceTree = "<group>"; };
+		F396EACE1577D1C6006A1D34 /* MQTTDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTDecoder.h; sourceTree = "<group>"; };
+		F396EACF1577D1C6006A1D34 /* MQTTEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTEncoder.h; sourceTree = "<group>"; };
+		F396EAD01577D1C6006A1D34 /* MQTTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTMessage.h; sourceTree = "<group>"; };
+		F396EAD11577D1C6006A1D34 /* MQTTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSession.h; sourceTree = "<group>"; };
+		F396EAD21577D1C6006A1D34 /* libMqttSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMqttSDK.a; sourceTree = "<group>"; };
+		F396EAD51577D1C6006A1D34 /* MQTTDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTDecoder.h; sourceTree = "<group>"; };
+		F396EAD61577D1C6006A1D34 /* MQTTEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTEncoder.h; sourceTree = "<group>"; };
+		F396EAD71577D1C6006A1D34 /* MQTTMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTMessage.h; sourceTree = "<group>"; };
+		F396EAD81577D1C6006A1D34 /* MQTTSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQTTSession.h; sourceTree = "<group>"; };
+		F396EAD91577D1C6006A1D34 /* libMqttSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMqttSDK.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F396EA881577D0D2006A1D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396EA901577D0D2006A1D34 /* UIKit.framework in Frameworks */,
+				F396EA921577D0D2006A1D34 /* Foundation.framework in Frameworks */,
+				F396EA941577D0D2006A1D34 /* CoreGraphics.framework in Frameworks */,
+				F396EADA1577D1C6006A1D34 /* libMqttSDK.a in Frameworks */,
+				F396EADB1577D1C6006A1D34 /* libMqttSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F396EAAB1577D0D2006A1D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396EAB11577D0D2006A1D34 /* SenTestingKit.framework in Frameworks */,
+				F396EAB21577D0D2006A1D34 /* UIKit.framework in Frameworks */,
+				F396EAB31577D0D2006A1D34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F396EA801577D0D2006A1D34 = {
+			isa = PBXGroup;
+			children = (
+				F396EAC71577D106006A1D34 /* mqtt-lib */,
+				F396EA951577D0D2006A1D34 /* HelloMQTT */,
+				F396EAB61577D0D2006A1D34 /* HelloMQTTTests */,
+				F396EA8E1577D0D2006A1D34 /* Frameworks */,
+				F396EA8C1577D0D2006A1D34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F396EA8C1577D0D2006A1D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F396EA8B1577D0D2006A1D34 /* HelloMQTT.app */,
+				F396EAAF1577D0D2006A1D34 /* HelloMQTTTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F396EA8E1577D0D2006A1D34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F396EA8F1577D0D2006A1D34 /* UIKit.framework */,
+				F396EA911577D0D2006A1D34 /* Foundation.framework */,
+				F396EA931577D0D2006A1D34 /* CoreGraphics.framework */,
+				F396EAB01577D0D2006A1D34 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F396EA951577D0D2006A1D34 /* HelloMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				F396EA9E1577D0D2006A1D34 /* AppDelegate.h */,
+				F396EA9F1577D0D2006A1D34 /* AppDelegate.m */,
+				F396EAA11577D0D2006A1D34 /* MainStoryboard_iPhone.storyboard */,
+				F396EAA71577D0D2006A1D34 /* ViewController.h */,
+				F396EAA81577D0D2006A1D34 /* ViewController.m */,
+				F396EA961577D0D2006A1D34 /* Supporting Files */,
+			);
+			path = HelloMQTT;
+			sourceTree = "<group>";
+		};
+		F396EA961577D0D2006A1D34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F396EA971577D0D2006A1D34 /* HelloMQTT-Info.plist */,
+				F396EA981577D0D2006A1D34 /* InfoPlist.strings */,
+				F396EA9B1577D0D2006A1D34 /* main.m */,
+				F396EA9D1577D0D2006A1D34 /* HelloMQTT-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F396EAB61577D0D2006A1D34 /* HelloMQTTTests */ = {
+			isa = PBXGroup;
+			children = (
+				F396EABC1577D0D2006A1D34 /* HelloMQTTTests.h */,
+				F396EABD1577D0D2006A1D34 /* HelloMQTTTests.m */,
+				F396EAB71577D0D2006A1D34 /* Supporting Files */,
+			);
+			path = HelloMQTTTests;
+			sourceTree = "<group>";
+		};
+		F396EAB71577D0D2006A1D34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F396EAB81577D0D2006A1D34 /* HelloMQTTTests-Info.plist */,
+				F396EAB91577D0D2006A1D34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F396EAC71577D106006A1D34 /* mqtt-lib */ = {
+			isa = PBXGroup;
+			children = (
+				F396EACC1577D1C6006A1D34 /* MqttSDK-Debug */,
+				F396EAD31577D1C6006A1D34 /* MqttSDK-Release */,
+			);
+			name = "mqtt-lib";
+			sourceTree = "<group>";
+		};
+		F396EACC1577D1C6006A1D34 /* MqttSDK-Debug */ = {
+			isa = PBXGroup;
+			children = (
+				F396EACD1577D1C6006A1D34 /* include */,
+				F396EAD21577D1C6006A1D34 /* libMqttSDK.a */,
+			);
+			path = "MqttSDK-Debug";
+			sourceTree = "<group>";
+		};
+		F396EACD1577D1C6006A1D34 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F396EACE1577D1C6006A1D34 /* MQTTDecoder.h */,
+				F396EACF1577D1C6006A1D34 /* MQTTEncoder.h */,
+				F396EAD01577D1C6006A1D34 /* MQTTMessage.h */,
+				F396EAD11577D1C6006A1D34 /* MQTTSession.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F396EAD31577D1C6006A1D34 /* MqttSDK-Release */ = {
+			isa = PBXGroup;
+			children = (
+				F396EAD41577D1C6006A1D34 /* include */,
+				F396EAD91577D1C6006A1D34 /* libMqttSDK.a */,
+			);
+			path = "MqttSDK-Release";
+			sourceTree = "<group>";
+		};
+		F396EAD41577D1C6006A1D34 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F396EAD51577D1C6006A1D34 /* MQTTDecoder.h */,
+				F396EAD61577D1C6006A1D34 /* MQTTEncoder.h */,
+				F396EAD71577D1C6006A1D34 /* MQTTMessage.h */,
+				F396EAD81577D1C6006A1D34 /* MQTTSession.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F396EA8A1577D0D2006A1D34 /* HelloMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F396EAC11577D0D2006A1D34 /* Build configuration list for PBXNativeTarget "HelloMQTT" */;
+			buildPhases = (
+				F396EA871577D0D2006A1D34 /* Sources */,
+				F396EA881577D0D2006A1D34 /* Frameworks */,
+				F396EA891577D0D2006A1D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMQTT;
+			productName = HelloMQTT;
+			productReference = F396EA8B1577D0D2006A1D34 /* HelloMQTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F396EAAE1577D0D2006A1D34 /* HelloMQTTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F396EAC41577D0D2006A1D34 /* Build configuration list for PBXNativeTarget "HelloMQTTTests" */;
+			buildPhases = (
+				F396EAAA1577D0D2006A1D34 /* Sources */,
+				F396EAAB1577D0D2006A1D34 /* Frameworks */,
+				F396EAAC1577D0D2006A1D34 /* Resources */,
+				F396EAAD1577D0D2006A1D34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F396EAB51577D0D2006A1D34 /* PBXTargetDependency */,
+			);
+			name = HelloMQTTTests;
+			productName = HelloMQTTTests;
+			productReference = F396EAAF1577D0D2006A1D34 /* HelloMQTTTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F396EA821577D0D2006A1D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = F396EA851577D0D2006A1D34 /* Build configuration list for PBXProject "HelloMQTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F396EA801577D0D2006A1D34;
+			productRefGroup = F396EA8C1577D0D2006A1D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F396EA8A1577D0D2006A1D34 /* HelloMQTT */,
+				F396EAAE1577D0D2006A1D34 /* HelloMQTTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F396EA891577D0D2006A1D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396EA9A1577D0D2006A1D34 /* InfoPlist.strings in Resources */,
+				F396EAA31577D0D2006A1D34 /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F396EAAC1577D0D2006A1D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396EABB1577D0D2006A1D34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F396EAAD1577D0D2006A1D34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F396EA871577D0D2006A1D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396EA9C1577D0D2006A1D34 /* main.m in Sources */,
+				F396EAA01577D0D2006A1D34 /* AppDelegate.m in Sources */,
+				F396EAA91577D0D2006A1D34 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F396EAAA1577D0D2006A1D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F396EABE1577D0D2006A1D34 /* HelloMQTTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F396EAB51577D0D2006A1D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F396EA8A1577D0D2006A1D34 /* HelloMQTT */;
+			targetProxy = F396EAB41577D0D2006A1D34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F396EA981577D0D2006A1D34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F396EA991577D0D2006A1D34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F396EAA11577D0D2006A1D34 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F396EAA21577D0D2006A1D34 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F396EAB91577D0D2006A1D34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F396EABA1577D0D2006A1D34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F396EABF1577D0D2006A1D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F396EAC01577D0D2006A1D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F396EAC21577D0D2006A1D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMQTT/HelloMQTT-Prefix.pch";
+				INFOPLIST_FILE = "HelloMQTT/HelloMQTT-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/MqttSDK-Debug\"",
+					"\"$(SRCROOT)/MqttSDK-Release\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F396EAC31577D0D2006A1D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMQTT/HelloMQTT-Prefix.pch";
+				INFOPLIST_FILE = "HelloMQTT/HelloMQTT-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/MqttSDK-Debug\"",
+					"\"$(SRCROOT)/MqttSDK-Release\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F396EAC51577D0D2006A1D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloMQTT.app/HelloMQTT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMQTT/HelloMQTT-Prefix.pch";
+				INFOPLIST_FILE = "HelloMQTTTests/HelloMQTTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F396EAC61577D0D2006A1D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloMQTT.app/HelloMQTT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloMQTT/HelloMQTT-Prefix.pch";
+				INFOPLIST_FILE = "HelloMQTTTests/HelloMQTTTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F396EA851577D0D2006A1D34 /* Build configuration list for PBXProject "HelloMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F396EABF1577D0D2006A1D34 /* Debug */,
+				F396EAC01577D0D2006A1D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F396EAC11577D0D2006A1D34 /* Build configuration list for PBXNativeTarget "HelloMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F396EAC21577D0D2006A1D34 /* Debug */,
+				F396EAC31577D0D2006A1D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F396EAC41577D0D2006A1D34 /* Build configuration list for PBXNativeTarget "HelloMQTTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F396EAC51577D0D2006A1D34 /* Debug */,
+				F396EAC61577D0D2006A1D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F396EA821577D0D2006A1D34 /* Project object */;
+}
